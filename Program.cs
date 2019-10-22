@@ -46,7 +46,7 @@ namespace TestParser
                     v => _printFailed = v != null
                 },
                 {
-                    "l", "print the namespace of the tests",
+                    "l", "print the namespaces of all tests",
                     v => _useLongName = v != null
                 },
                 {
